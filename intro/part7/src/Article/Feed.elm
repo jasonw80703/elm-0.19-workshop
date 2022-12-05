@@ -1,14 +1,13 @@
-module Article.Feed
-    exposing
-        ( Model
-        , Msg
-        , decoder
-        , init
-        , update
-        , viewArticles
-        , viewPagination
-        , viewTabs
-        )
+module Article.Feed exposing
+    ( Model
+    , Msg
+    , decoder
+    , init
+    , update
+    , viewArticles
+    , viewPagination
+    , viewTabs
+    )
 
 import Api
 import Article exposing (Article, Preview)

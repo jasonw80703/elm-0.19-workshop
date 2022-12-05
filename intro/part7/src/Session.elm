@@ -1,14 +1,13 @@
-port module Session
-    exposing
-        ( Session
-        , changes
-        , cred
-        , decode
-        , login
-        , logout
-        , navKey
-        , viewer
-        )
+port module Session exposing
+    ( Session
+    , changes
+    , cred
+    , decode
+    , login
+    , logout
+    , navKey
+    , viewer
+    )
 
 import Browser.Navigation as Nav
 import Json.Decode as Decode exposing (Decoder)

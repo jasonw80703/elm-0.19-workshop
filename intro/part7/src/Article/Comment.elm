@@ -1,14 +1,13 @@
-module Article.Comment
-    exposing
-        ( Comment
-        , author
-        , body
-        , createdAt
-        , delete
-        , id
-        , list
-        , post
-        )
+module Article.Comment exposing
+    ( Comment
+    , author
+    , body
+    , createdAt
+    , delete
+    , id
+    , list
+    , post
+    )
 
 import Api
 import Article exposing (Article)
